@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Foobar
+title: Meganthology
 ---
 
 GitHub Flavored Markdown
@@ -87,12 +87,12 @@ I am a robot
 ------------
 
 Maybe you want to print `robot` to the console 1000 times. Why not?
+{% highlight ruby %}
+def robot_invasion
+  puts("robot " * 1000)
+end
+{% endhighlight %}
 
-    def robot_invasion
-      puts("robot " * 1000)
-    end
-{:lang="ruby"}
-    
 You see, that was formatted as code because it's been indented by four spaces.
 
 How about we throw some angle braces and ampersands in there?
