@@ -9,7 +9,7 @@ First of all you need to install all the dependencies. We use quite a few:
 
 * *Jekyll:* the static site generator engine: `gem install jekyll`
 * *RDiscount:* the rubygem that parses the markdown of your pages: `gem install rdiscount`
-* *Pygments:* library that is used for syntax highlighting (assuming you have python and easy_install): `easy_install Pygments`
+* *Pygments:* library used for syntax highlighting (assuming you have python and easy_install): `easy_install Pygments`
 
 ## Usage
 Once you've got all the dependencies set, you just need to run the command `jekyll --server` in the projects folder. This will create a local server (http://localhost:4000) where you can view your pretty creature.
